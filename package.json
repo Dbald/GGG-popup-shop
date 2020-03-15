@@ -1,0 +1,9 @@
+{
+  "name": "GGG-popup-shop",
+  "version": "1.0.0",
+  "description": "A virtual popup shop built in A-Frame.",
+  "main": "index.html",
+  "repository": "https://github.com/Dbald/GGG-popup-shop.git",
+  "author": "itsdevinci <devinbaldwin315@gmail.com>",
+  "license": "MIT"
+}
