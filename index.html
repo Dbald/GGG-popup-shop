@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GGG | Pop Up Shop</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity
+      id="rig-1"
+      position="0 -1.38 0"
+      rotation="0 90 0">
+      <a-camera active="true"></a-camera>
+    </a-entity>
+      <a-asset>
+      <a-asset-item id="stage" src="./assets/showroom.glb"></a-asset-item>
+      </a-asset>
+      <a-entity
+      id="showroom"
+      position="0 0.243 0"
+      gltf-model="#stage"></a-entity>
+      <a-asset>
+        <a-asset-item id="car" src="./assets/scene.gltf"></a-asset-item>
+        </a-asset>
+        <a-entity
+        id="car"
+        position="-0.75 0.072 -0.07"
+        scale="0.001 0.001 0.001"
+        gltf-model="#car"></a-entity>
+    </a-scene>
+  </body>
+</html>
